@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092292F621383B82003BAD70 /* SPDistrict.m in Sources */ = {isa = PBXBuildFile; fileRef = 092292EE21383B82003BAD70 /* SPDistrict.m */; };
+		092292F721383B82003BAD70 /* SPProvince.m in Sources */ = {isa = PBXBuildFile; fileRef = 092292F121383B82003BAD70 /* SPProvince.m */; };
+		092292F821383B82003BAD70 /* SPCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 092292F221383B82003BAD70 /* SPCity.m */; };
+		092292F921383B82003BAD70 /* SPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 092292F421383B82003BAD70 /* SPLocation.m */; };
+		092292FD21383E12003BAD70 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 092292FC21383E11003BAD70 /* MyCell.m */; };
+		0922930621383EBC003BAD70 /* SPPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0922930421383EBC003BAD70 /* SPPageMenu.m */; };
+		0922930A2138418D003BAD70 /* MyXibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 092293082138418D003BAD70 /* MyXibCell.m */; };
+		0922930B2138418D003BAD70 /* MyXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092293092138418D003BAD70 /* MyXibCell.xib */; };
+		0927F1FC21399AD4000E005D /* AddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0927F1FB21399AD4000E005D /* AddressView.m */; };
+		0927F205213A6FB9000E005D /* SPModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0927F204213A6FB9000E005D /* SPModalView.m */; };
 		6A234B5F212FAF9600128DD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234B5E212FAF9600128DD6 /* AppDelegate.m */; };
-		6A234B62212FAF9600128DD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234B61212FAF9600128DD6 /* ViewController.m */; };
 		6A234B65212FAF9600128DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A234B63212FAF9600128DD6 /* Main.storyboard */; };
 		6A234B67212FAFB000128DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A234B66212FAFB000128DD6 /* Assets.xcassets */; };
 		6A234B6A212FAFB000128DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A234B68212FAFB000128DD6 /* LaunchScreen.storyboard */; };
 		6A234B6D212FAFB000128DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234B6C212FAFB000128DD6 /* main.m */; };
 		6A234B77212FAFB100128DD6 /* SPPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234B76212FAFB100128DD6 /* SPPickerViewTests.m */; };
 		6A234B82212FAFB100128DD6 /* SPPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234B81212FAFB100128DD6 /* SPPickerViewUITests.m */; };
+		6A234B93212FC11500128DD6 /* pcd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A234B92212FC11500128DD6 /* pcd.plist */; };
+		6A234B97212FC51D00128DD6 /* SPPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A234B96212FC51C00128DD6 /* SPPickerView.m */; };
+		6A693FFA2130397C001BE08A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A693FF92130397C001BE08A /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +47,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092292EE21383B82003BAD70 /* SPDistrict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDistrict.m; sourceTree = "<group>"; };
+		092292EF21383B82003BAD70 /* SPCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCity.h; sourceTree = "<group>"; };
+		092292F021383B82003BAD70 /* SPLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLocation.h; sourceTree = "<group>"; };
+		092292F121383B82003BAD70 /* SPProvince.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPProvince.m; sourceTree = "<group>"; };
+		092292F221383B82003BAD70 /* SPCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCity.m; sourceTree = "<group>"; };
+		092292F321383B82003BAD70 /* SPDistrict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDistrict.h; sourceTree = "<group>"; };
+		092292F421383B82003BAD70 /* SPLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLocation.m; sourceTree = "<group>"; };
+		092292F521383B82003BAD70 /* SPProvince.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPProvince.h; sourceTree = "<group>"; };
+		092292FB21383E11003BAD70 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		092292FC21383E11003BAD70 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		0922930421383EBC003BAD70 /* SPPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPageMenu.m; sourceTree = "<group>"; };
+		0922930521383EBC003BAD70 /* SPPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPageMenu.h; sourceTree = "<group>"; };
+		092293072138418D003BAD70 /* MyXibCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyXibCell.h; sourceTree = "<group>"; };
+		092293082138418D003BAD70 /* MyXibCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyXibCell.m; sourceTree = "<group>"; };
+		092293092138418D003BAD70 /* MyXibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyXibCell.xib; sourceTree = "<group>"; };
+		0927F1FA21399AD4000E005D /* AddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressView.h; sourceTree = "<group>"; };
+		0927F1FB21399AD4000E005D /* AddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressView.m; sourceTree = "<group>"; };
+		0927F203213A6FB9000E005D /* SPModalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPModalView.h; sourceTree = "<group>"; };
+		0927F204213A6FB9000E005D /* SPModalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPModalView.m; sourceTree = "<group>"; };
 		6A234B5A212FAF9600128DD6 /* SPPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A234B5D212FAF9600128DD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A234B5E212FAF9600128DD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6A234B60212FAF9600128DD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6A234B61212FAF9600128DD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6A234B64212FAF9600128DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A234B66212FAFB000128DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A234B69212FAFB000128DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +80,11 @@
 		6A234B7D212FAFB100128DD6 /* SPPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A234B81212FAFB100128DD6 /* SPPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPPickerViewUITests.m; sourceTree = "<group>"; };
 		6A234B83212FAFB100128DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A234B92212FC11500128DD6 /* pcd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pcd.plist; sourceTree = "<group>"; };
+		6A234B95212FC51C00128DD6 /* SPPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPickerView.h; sourceTree = "<group>"; };
+		6A234B96212FC51C00128DD6 /* SPPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPickerView.m; sourceTree = "<group>"; };
+		6A693FF82130397C001BE08A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A693FF92130397C001BE08A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +112,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		092292ED21383B82003BAD70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				092292F521383B82003BAD70 /* SPProvince.h */,
+				092292F121383B82003BAD70 /* SPProvince.m */,
+				092292EF21383B82003BAD70 /* SPCity.h */,
+				092292F221383B82003BAD70 /* SPCity.m */,
+				092292F321383B82003BAD70 /* SPDistrict.h */,
+				092292EE21383B82003BAD70 /* SPDistrict.m */,
+				092292F021383B82003BAD70 /* SPLocation.h */,
+				092292F421383B82003BAD70 /* SPLocation.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		092292FA21383E11003BAD70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				092292FB21383E11003BAD70 /* MyCell.h */,
+				092292FC21383E11003BAD70 /* MyCell.m */,
+				092293072138418D003BAD70 /* MyXibCell.h */,
+				092293082138418D003BAD70 /* MyXibCell.m */,
+				092293092138418D003BAD70 /* MyXibCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0922930321383EBC003BAD70 /* SPPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0922930521383EBC003BAD70 /* SPPageMenu.h */,
+				0922930421383EBC003BAD70 /* SPPageMenu.m */,
+			);
+			path = SPPageMenu;
+			sourceTree = "<group>";
+		};
 		6A234B51212FAF9500128DD6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +171,22 @@
 		6A234B5C212FAF9600128DD6 /* SPPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				6A234B94212FC51C00128DD6 /* SPPickerView */,
+				6A693FF82130397C001BE08A /* ViewController.h */,
+				6A693FF92130397C001BE08A /* ViewController.m */,
+				0927F1FA21399AD4000E005D /* AddressView.h */,
+				0927F1FB21399AD4000E005D /* AddressView.m */,
+				0927F203213A6FB9000E005D /* SPModalView.h */,
+				0927F204213A6FB9000E005D /* SPModalView.m */,
+				0922930321383EBC003BAD70 /* SPPageMenu */,
+				092292ED21383B82003BAD70 /* Models */,
+				092292FA21383E11003BAD70 /* Views */,
 				6A234B5D212FAF9600128DD6 /* AppDelegate.h */,
 				6A234B5E212FAF9600128DD6 /* AppDelegate.m */,
-				6A234B60212FAF9600128DD6 /* ViewController.h */,
-				6A234B61212FAF9600128DD6 /* ViewController.m */,
 				6A234B63212FAF9600128DD6 /* Main.storyboard */,
 				6A234B66212FAFB000128DD6 /* Assets.xcassets */,
 				6A234B68212FAFB000128DD6 /* LaunchScreen.storyboard */,
+				6A234B92212FC11500128DD6 /* pcd.plist */,
 				6A234B6B212FAFB000128DD6 /* Info.plist */,
 				6A234B6C212FAFB000128DD6 /* main.m */,
 			);
@@ -130,6 +209,15 @@
 				6A234B83212FAFB100128DD6 /* Info.plist */,
 			);
 			path = SPPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		6A234B94212FC51C00128DD6 /* SPPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				6A234B95212FC51C00128DD6 /* SPPickerView.h */,
+				6A234B96212FC51C00128DD6 /* SPPickerView.m */,
+			);
+			path = SPPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +325,8 @@
 			files = (
 				6A234B6A212FAFB000128DD6 /* LaunchScreen.storyboard in Resources */,
 				6A234B67212FAFB000128DD6 /* Assets.xcassets in Resources */,
+				0922930B2138418D003BAD70 /* MyXibCell.xib in Resources */,
+				6A234B93212FC11500128DD6 /* pcd.plist in Resources */,
 				6A234B65212FAF9600128DD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +352,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A234B62212FAF9600128DD6 /* ViewController.m in Sources */,
+				092292F621383B82003BAD70 /* SPDistrict.m in Sources */,
+				0922930621383EBC003BAD70 /* SPPageMenu.m in Sources */,
+				6A693FFA2130397C001BE08A /* ViewController.m in Sources */,
+				092292F721383B82003BAD70 /* SPProvince.m in Sources */,
+				0927F205213A6FB9000E005D /* SPModalView.m in Sources */,
 				6A234B6D212FAFB000128DD6 /* main.m in Sources */,
+				092292F821383B82003BAD70 /* SPCity.m in Sources */,
+				092292FD21383E12003BAD70 /* MyCell.m in Sources */,
 				6A234B5F212FAF9600128DD6 /* AppDelegate.m in Sources */,
+				0922930A2138418D003BAD70 /* MyXibCell.m in Sources */,
+				0927F1FC21399AD4000E005D /* AddressView.m in Sources */,
+				092292F921383B82003BAD70 /* SPLocation.m in Sources */,
+				6A234B97212FC51D00128DD6 /* SPPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -434,7 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MP8K63J94Y;
+				DEVELOPMENT_TEAM = N7GTHGMGVY;
 				INFOPLIST_FILE = SPPickerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MP8K63J94Y;
+				DEVELOPMENT_TEAM = N7GTHGMGVY;
 				INFOPLIST_FILE = SPPickerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
