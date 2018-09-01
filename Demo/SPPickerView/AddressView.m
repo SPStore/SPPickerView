@@ -310,6 +310,7 @@
         _pageMenu.unSelectedItemTitleColor = [UIColor grayColor];
         [_pageMenu setTrackerHeight:1 cornerRadius:0];
         _pageMenu.itemPadding = 50;
+        _pageMenu.bridgeScrollView = self.pickerView.scrollView;
     }
     return  _pageMenu;
 }
