@@ -20,7 +20,7 @@ target 'MyApp' do
 end
 ```
 
-演示图
+## 演示图
 ![image](https://github.com/SPStore/SPPickerView/blob/master/演示图.gif)
 
 
