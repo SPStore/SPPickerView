@@ -5,7 +5,7 @@
 ![Language](https://img.shields.io/badge/language-Object--C-ff69b4.svg)
 [![Pod License](http://img.shields.io/cocoapods/l/SPPickerView.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/SPStore/SPPickerView)
-![codecov](https://img.shields.io/badge/codecov-88%25-orange.svg)
+![codecov](https://img.shields.io/badge/codecov-88%25-orange.svg)<br>
 这是一个选择器，功能类似系统的UIPickerView，但是比UIPickerView的适用范围广得多
 
 # 目录
